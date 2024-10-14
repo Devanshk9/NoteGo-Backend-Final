@@ -8,8 +8,7 @@ const PhysicsCyclePdf = require("./PhysicsCyclePdf")
 const ChemistryCyclePdf = require("./ChemistryCyclePdf")
 
 App.use(cors({
-  origin: 'https://notego.in', // Only allow this specific origin
-  optionsSuccessStatus: 200,    // For legacy browser support
+  origin: '*'  // For legacy browser support
 }));
   // or to allow all origins (if security is not a concern)
 App.use(cors());
